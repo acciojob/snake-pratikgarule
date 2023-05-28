@@ -8,20 +8,28 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<div id="gameContainer">
-		<div class="food" id="foodpx"></div>
-		<div class="snakeBodyPixel" id="snakepx"></div>
-		<div id="leftButton"></div>
-		<div id="rightButton"></div>
-		<div id="upButton"></div>
-		<div id="downButton"></div>
-		
+	<div id="gameContainer"></div>
+
+
+	<!-- #scoreContainer contains the scores -->
+	<div id="scoreContainer">
+		<div class="scoreBoard">Your Score: <span id="pointsEarned">0</span></div>
 	</div>
-	<div class="scoreBoard" id="scorepx">
-		<h4>Your Score: 0</h4>
+
+
+	<!-- #onScreenControllers contains the navigation buttons for mobile screens -->
+	<div id="onScreenControllers">
+		<button id="leftButton">◀️</button>
+		<div>
+			<button id="upButton">🔼</button>
+			<button id="downButton">🔽</button>
+		</div>
+		<button id="rightButton">▶️</button>
 	</div>
-    <script type="text/javascript" src="./script.js">
-</script>
+
+
+	<script type="text/javascript" src="./script.js">
+	</script>
 
 </body>
 
